@@ -1,0 +1,187 @@
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1{
+    float: none!important;
+    width: 100% !important;
+}
+
+.woocommerce table.shop_table a {
+    color : #c8a0a0 !important;
+    text-decoration: none !important;
+}
+
+.woocommerce table.shop_table a.remove {
+    color : #4C4F4D !important;
+}
+.woocommerce table.shop_table a.remove:hover {
+    color : #c8a0a0 !important;
+    background-color: transparent !important;
+}
+
+
+.woocommerce table.shop_table th{
+    color : #c8a0a0 !important;
+}
+
+.woocommerce table.shop_table .product-name{
+    color : #c8a0a0 !important;
+}
+
+.woocommerce table.shop_table th.product-subtotal{
+    color : #c8a0a0 !important;
+    font-size: 1em !important;
+}
+
+.woocommerce table.shop_table .product-price , .product-quantity{
+    font-weight: bold !important;
+    color : #c8a0a0 !important;
+
+}
+
+.woocommerce table.shop_table .product-subtotal{
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+}
+
+.woocommerce table.shop_table .product-thumbnail img{
+    border-radius: 5px !important;
+}
+
+.woocommerce-billing-fields__field-wrapper .required{
+    color: #c8a0a0 !important;
+}
+
+table tbody>tr:nth-child(odd)>td, table tbody>tr:nth-child(odd)>th{
+    background-color: transparent !important;
+}
+
+table tbody>tr:nth-child(odd)>td, table tbody>tr:nth-child(odd)>th :hover{
+    background-color: transparent !important;
+}
+
+table td, table th{
+    border: 0.5px solid hsla(0,0%,50.2%,.5019607843) !important;
+}
+
+.woocommerce .cart .button, .woocommerce .cart input.button{
+    background-color: #c8a0a0 !important;
+    border: 1px solid #c8a0a0 !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding: 10px 20px !important;
+    margin: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.woocommerce .cart .button, .woocommerce .cart input.button :hover{
+    background-color: #fff !important;
+    border: 1px solid #c8a0a0 !important;
+    color: #c8a0a0 !important;
+    text-transform: uppercase !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    padding: 10px 20px !important;
+    margin: 0 !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+[type=checkbox], [type=radio]{
+    accent-color:#c8a0a0 !important; ;
+}
+
+.woocommerce-checkout-payment button {
+    background-color: #c8a0a0 !important;
+}
+.woocommerce-checkout-payment a{
+   color: #c8a0a0 !important;
+}
+
+.woocommerce-cart-form__cart-item .cart_item:hover{
+    background-color: transparent !important;
+}
+
+@media only screen and (min-width: 1200px) {
+    p#billing_email_field {
+        float: left;
+        width: 47%;
+    }
+
+    p#billing_phone_field {
+        float: right;
+        width: 47%;
+    }
+
+    p#billing_company_field {
+        float: left;
+        width: 47%;
+    }
+
+    p#billing_country_field {
+        float: right;
+        width: 47%;
+    }
+
+    p#billing_address_1_field{
+        float: left;
+        width: 47%;
+        clear : both!important;
+    }
+
+
+
+    p#billing_address_2_field{
+        width: 47%;
+        float: right;
+    }
+
+
+
+    p#billing_postcode_field {
+        float: left;
+        width: 47%;
+    }
+
+    p#billing_city_field {
+        float: right;
+        width: 47%;
+    }
+
+    .woocommerce form .form-row-wide, .woocommerce-page form .form-row-wide {
+        clear: none!important;
+    }
+
+
+}
+
+#add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment{
+    background-color: #222624 !important;
+}
+
+#payment > ul > li.wc_payment_method.payment_method_bacs > div{
+    background-color: #4C4F4D !important;
+    color: #fff!important;
+}
+
+#add_payment_method #payment div.payment_box::before, .woocommerce-cart #payment div.payment_box::before, .woocommerce-checkout #payment div.payment_box::before{
+    border-color: #4C4F4D !important;
+    border-right-color: transparent!important;
+    border-left-color: transparent!important;
+    border-top-color: transparent!important;
+}
+
+#add_payment_method #payment div.payment_box, .woocommerce-cart #payment div.payment_box, .woocommerce-checkout #payment div.payment_box{
+    background-color: #4C4F4D !important;
+    color: #fff!important;
+}
+
+.woocommerce-checkout-payment{
+    color: #fff;
+}
+
+#order_review_heading{
+    color: #000000;
+}
+
+#customer_details > div.col-1 > div > h3{
+    color: #000000;
+}
